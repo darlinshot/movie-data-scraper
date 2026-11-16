@@ -1,0 +1,20 @@
+[project]
+name = "movie-data-collector"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { email = "darlinshot@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=3.1.1",
+    "playwright>=1.65.2",
+    "rapidfuzz>=3.14.6",
+]
+
+[project.scripts]
+movie-data-collector = "movie_data_collector:main"
+
+[build-system]
+requires = ["uv_build>=0.13.8,<0.14.0"]
+build-backend = "uv_build"
