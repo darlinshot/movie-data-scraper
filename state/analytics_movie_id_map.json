@@ -1,0 +1,2334 @@
+{
+  "generated_at": "2026-11-18T15:04:31Z",
+  "id_prefix": "M",
+  "movies": [
+    {
+      "canonical_title": "Án Mạng Karaoke",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Hoàng Lê",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0001",
+      "release_year": 2026,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/an-mang-karaoke",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/an-mang-karaoke",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Án Mạng Xém Hoàn Hảo",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": null,
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0002",
+      "release_year": 2026,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/an-mang-xem-hoan-hao",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/an-mang-xem-hoan-hao",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Avatar: Dòng Chảy Của Nước",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "James Cameron",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0003",
+      "release_year": 2022,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/avatar-the-way-of-water",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/avatar-the-way-of-water",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Avengers: Hồi Kết (Endgame)",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Anthony Russo, Joe Russo",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0004",
+      "release_year": 2019,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/avengers-endgame",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/avengers-endgame",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Bắc Kim Thang",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Trần Hữu Tấn",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0005",
+      "release_year": 2019,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/bac-kim-thang",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/bac-kim-thang",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Báu Vật Trời Cho",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Lê Thanh Sơn",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0006",
+      "release_year": 2026,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/bau-vat-troi-cho",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/bau-vat-troi-cho",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Bẫy Ngọt Ngào",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Đinh Hà Uyên Thư",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0007",
+      "release_year": 2022,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/bay-ngot-ngao",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/bay-ngot-ngao",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Bố Già",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Trấn Thành, Vũ Ngọc Đãng",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0008",
+      "release_year": 2021,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/bo-gia",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/bo-gia",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Bò Sữa Bay",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Nguyễn Phạm Thành Đạt",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0009",
+      "release_year": 2026,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/bo-sua-bay",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/bo-sua-bay",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Bộ Tứ Báo Thủ",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Trấn Thành",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0010",
+      "release_year": 2025,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/bo-tu-bao-thu",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/bo-tu-bao-thu",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Bóng Đè",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Lê Văn Kiệt",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0011",
+      "release_year": 2022,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/bong-de",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/bong-de",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Cám",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Trần Hữu Tấn",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0012",
+      "release_year": 2024,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/cam",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/cam",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Chị Chị Em Em 2",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Vũ Ngọc Đãng",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0013",
+      "release_year": 2023,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/chi-chi-em-em-2",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/chi-chi-em-em-2",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Chị Chị Em Em 3",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Nguyễn Hữu Hoàng",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0014",
+      "release_year": 2026,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/chi-chi-em-em-3",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/chi-chi-em-em-3",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Chị Dâu",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Khương Ngọc",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0015",
+      "release_year": 2024,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/chi-dau",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/chi-dau",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Chị Mười Ba: 3 Ngày Sinh Tử",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Võ Thanh Hòa",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0016",
+      "release_year": 2020,
+      "revenue_review": {
+        "decision": "quarantined",
+        "reason": "sequel_number_error",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/chi-muoi-ba-3-ngay-sinh-tu",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/chi-muoi-ba-3-ngay-sinh-tu",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Chìa Khóa Trăm Tỷ",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Võ Thanh Hòa",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0017",
+      "release_year": 2022,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/chia-khoa-tram-ty",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/chia-khoa-tram-ty",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Chuyện Ma Gần Nhà",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Trần Hữu Tấn",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0018",
+      "release_year": 2022,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/chuyen-ma-gan-nha",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/chuyen-ma-gan-nha",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Clayface",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": null,
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0019",
+      "release_year": 2026,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/clayface",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/clayface",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Cô Ba Sài Gòn",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Trần Bửu Lộc, Kay Nguyễn",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0020",
+      "release_year": 2017,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/co-ba-sai-gon",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/co-ba-sai-gon",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Cô Dâu Hào Môn",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Vũ Ngọc Đãng",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0021",
+      "release_year": 2024,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/co-dau-hao-mon",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/co-dau-hao-mon",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Con Nhót Mót Chồng",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Vũ Ngọc Đãng",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0022",
+      "release_year": 2023,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/con-nhot-mot-chong",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/con-nhot-mot-chong",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Cua Lại Vợ Bầu",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Nhất Trung",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0023",
+      "release_year": 2019,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/cua-lai-vo-bau",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/cua-lai-vo-bau",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Đào, Phở và Piano",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Phi Tiến Sơn",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0024",
+      "release_year": 2024,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/dao-pho-va-piano",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/dao-pho-va-piano",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Đất Rừng Phương Nam",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Nguyễn Quang Dũng",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0025",
+      "release_year": 2023,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/dat-rung-phuong-nam",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/dat-rung-phuong-nam",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Để Mai Tính 2",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Charlie Nguyễn",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0026",
+      "release_year": 2014,
+      "source_url_dtp": "https://doanhthuphim.vn/phim/de-mai-tinh-2",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/de-mai-tinh-2",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Đèn Âm Hồn",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Hoàng Nam",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0027",
+      "release_year": 2025,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/den-am-hon",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/den-am-hon",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Địa Đạo: Mặt Trời Trong Bóng Tối",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Bùi Thạc Chuyên",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0028",
+      "release_year": 2025,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/dia-dao-mat-troi-trong-bong-toi",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/dia-dao-mat-troi-trong-bong-toi",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Dòng Máu Anh Hùng",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Charlie Nguyễn",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0029",
+      "release_year": 2007,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/dong-mau-anh-hung",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/dong-mau-anh-hung",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Em Chưa 18",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Lê Thanh Sơn",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0030",
+      "release_year": 2017,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/em-chua-18",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/em-chua-18",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Em Là Bà Nội Của Anh",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Phan Gia Nhật Linh",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0031",
+      "release_year": 2015,
+      "source_url_dtp": "https://doanhthuphim.vn/phim/em-la-ba-noi-cua-anh",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/em-la-ba-noi-cua-anh",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Em và Trịnh",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Phan Gia Nhật Linh",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0032",
+      "release_year": 2022,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/em-va-trinh",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/em-va-trinh",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Exhuma: Quật Mộ Trùng Ma",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Jang Jae-hyun",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0033",
+      "release_year": 2024,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/exhuma-quat-mo-trung-ma",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/exhuma-quat-mo-trung-ma",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Gái Già Lắm Chiêu 2",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Bảo Nhân, Namcito",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0034",
+      "release_year": 2018,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/gai-gia-lam-chieu-2",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/gai-gia-lam-chieu-2",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Gái Già Lắm Chiêu 3",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Bảo Nhân, Namcito",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0035",
+      "release_year": 2020,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/gai-gia-lam-chieu-3",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/gai-gia-lam-chieu-3",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Gái Già Lắm Chiêu V: Những Cuộc Đời Vương Giả",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Bảo Nhân, Namcito",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0036",
+      "release_year": 2021,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/gai-gia-lam-chieu-v",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/gai-gia-lam-chieu-v",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Gặp Lại Chị Bầu",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Đoàn Nhất Trung",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0037",
+      "release_year": 2024,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/gap-lai-chi-bau",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/gap-lai-chi-bau",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Godzilla Trừ Không",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Takashi Yamazaki",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0038",
+      "release_year": 2026,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/godzilla-tru-khong",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/godzilla-tru-khong",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Hai Phượng",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Lê Văn Kiệt",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0039",
+      "release_year": 2019,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/hai-phuong",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/hai-phuong",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Hẹn Em Ngày Nhật Thực",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Lê Thiện Viễn",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0040",
+      "release_year": 2026,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/hen-em-ngay-nhat-thuc",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/hen-em-ngay-nhat-thuc",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Heo 5 Móng",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Lưu Thành Luân",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0041",
+      "release_year": 2026,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/heo-5-mong",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/heo-5-mong",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Kẻ Ăn Hồn",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Trần Hữu Tấn",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0042",
+      "release_year": 2023,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/ke-an-hon",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/ke-an-hon",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Kính Vạn Hoa: Phim Điện Ảnh",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Võ Thanh Hòa",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0043",
+      "release_year": 2024,
+      "revenue_review": {
+        "decision": "candidate_held",
+        "reason": "different_subtitle",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/kinh-van-hoa-phim-dien-anh",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/kinh-van-hoa-phim-dien-anh",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Làm Giàu Với Ma",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Trung Lùn",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0044",
+      "release_year": 2024,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/lam-giau-voi-ma",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/lam-giau-voi-ma",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Làm Giàu Với Ma 2: Cuộc Chiến Hột Xoàn",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Trung Lùn",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0045",
+      "release_year": 2025,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/lam-giau-voi-ma-2-cuoc-chien-hot-xoan",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/lam-giau-voi-ma-2-cuoc-chien-hot-xoan",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Lật Mặt (Lật Mặt 1)",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Lý Hải",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0046",
+      "release_year": 2015,
+      "source_url_dtp": "https://doanhthuphim.vn/phim/lat-mat-1",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/lat-mat-1",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Lật Mặt 2: Phim Trường",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Lý Hải",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0047",
+      "release_year": 2016,
+      "source_url_dtp": "https://doanhthuphim.vn/phim/lat-mat-2-phim-truong",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/lat-mat-2-phim-truong",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Lật Mặt 4: Nhà Có Khách",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Lý Hải",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0048",
+      "release_year": 2019,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/lat-mat-4-nha-co-khach",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/lat-mat-4-nha-co-khach",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Lật Mặt: 48H",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Lý Hải",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0049",
+      "release_year": 2021,
+      "source_url_dtp": "https://doanhthuphim.vn/phim/lat-mat-48h",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/lat-mat-48h",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Lật Mặt 6: Tấm Vé Định Mệnh",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Lý Hải",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0050",
+      "release_year": 2023,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/lat-mat-6-tam-ve-dinh-menh",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/lat-mat-6-tam-ve-dinh-menh",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Lật Mặt 7: Một Điều Ước",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Lý Hải",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0051",
+      "release_year": 2024,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/lat-mat-7-mot-dieu-uoc",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/lat-mat-7-mot-dieu-uoc",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Lật Mặt 8: Vòng Tay Nắng",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Lý Hải",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0052",
+      "release_year": 2025,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/lat-mat-8-vong-tay-nang",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/lat-mat-8-vong-tay-nang",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Lật Mặt: Ba Chàng Khuyết",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Lý Hải",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0053",
+      "release_year": 2018,
+      "source_url_dtp": "https://doanhthuphim.vn/phim/lat-mat-ba-chang-khuyet",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/lat-mat-ba-chang-khuyet",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Lên Hương",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Khương Ngọc, Tấn Hoàng Thông",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0054",
+      "release_year": 2026,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/len-huong",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/len-huong",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Ma Da",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Nguyễn Hữu Hoàng",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0055",
+      "release_year": 2024,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/ma-da",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/ma-da",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Ma Xó",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Phan Bá Hỷ",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0056",
+      "release_year": 2026,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/ma-xo",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/ma-xo",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Mai",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Trấn Thành",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0057",
+      "release_year": 2024,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/mai",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/mai",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Mang Mẹ Đi Bỏ",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Mo Hong-jin",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0058",
+      "release_year": 2025,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/mang-me-di-bo",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/mang-me-di-bo",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Mắt Biếc",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Victor Vũ",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0059",
+      "release_year": 2019,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/mat-biec",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/mat-biec",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Mưa Đỏ",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Đặng Thái Huyền",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0060",
+      "release_year": 2025,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/mua-do",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/mua-do",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Mỹ Nhân Kế",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Nguyễn Quang Dũng",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0061",
+      "release_year": 2013,
+      "source_url_dtp": "https://doanhthuphim.vn/phim/my-nhan-ke",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/my-nhan-ke",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Ngày Con Còn Mẹ",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Vũ Ngọc Đãng",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0062",
+      "release_year": 2026,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/ngay-con-con-me",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/ngay-con-con-me",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Ngày Xưa Có Một Chuyện Tình",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Trịnh Đình Lê Minh",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0063",
+      "release_year": 2024,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/ngay-xua-co-mot-chuyen-tinh",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/ngay-xua-co-mot-chuyen-tinh",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Nghề Siêu Dễ",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Võ Thanh Hòa",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0064",
+      "release_year": 2022,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/nghe-sieu-de",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/nghe-sieu-de",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Nghỉ Hè Sợ Nghỉ Hưu",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Huỳnh Lập",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0065",
+      "release_year": 2026,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/nghi-he-so-nghi-huu",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/nghi-he-so-nghi-huu",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Người Vợ Cuối Cùng",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Victor Vũ",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0066",
+      "release_year": 2023,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/nguoi-vo-cuoi-cung",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/nguoi-vo-cuoi-cung",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Nhà Bà Nữ",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Trấn Thành",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0067",
+      "release_year": 2023,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/nha-ba-nu",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/nha-ba-nu",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Nhà Ba Tôi Một Phòng",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Trường Giang",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0068",
+      "release_year": 2026,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/nha-ba-toi-mot-phong",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/nha-ba-toi-mot-phong",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Nhà Gia Tiên",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Huỳnh Lập",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0069",
+      "release_year": 2025,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/nha-gia-tien",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/nha-gia-tien",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Nụ Hôn Bạc Tỷ",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Thu Trang",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0070",
+      "release_year": 2025,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/nu-hon-bac-ty",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/nu-hon-bac-ty",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Phí Phông: Quỷ Máu Rừng Thiêng",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Đỗ Quốc Trung",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0071",
+      "release_year": 2026,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/phi-phong-quy-mau-rung-thieng",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/phi-phong-quy-mau-rung-thieng",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Quả Tim Máu",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Victor Vũ",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0072",
+      "release_year": 2014,
+      "source_url_dtp": "https://doanhthuphim.vn/phim/qua-tim-mau",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/qua-tim-mau",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Quỷ Ăn Tạng 4: Hổ Tinh",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": null,
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0073",
+      "release_year": 2026,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/quy-an-tang-4",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/quy-an-tang-4",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Quỷ Cẩu",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Lưu Thành Luân",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0074",
+      "release_year": 2023,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/quy-cau",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/quy-cau",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Quỷ Nhập Tràng",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Pom Nguyễn",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0075",
+      "release_year": 2025,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/quy-nhap-trang",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/quy-nhap-trang",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Quỷ Nhập Tràng 2",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Pom Nguyễn",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0076",
+      "release_year": 2026,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/quy-nhap-trang-2",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/quy-nhap-trang-2",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Ramayana: Khởi Nguồn Một Huyền Thoại",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Nitesh Tiwari",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0077",
+      "release_year": 2026,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/ramayana",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/ramayana",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Siêu Lừa Gặp Siêu Lầy",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Võ Thanh Hòa",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0078",
+      "release_year": 2023,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/sieu-lua-gap-sieu-lay",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/sieu-lua-gap-sieu-lay",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Siêu Sao Siêu Ngố",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Đức Thịnh",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0079",
+      "release_year": 2018,
+      "source_url_dtp": "https://doanhthuphim.vn/phim/sieu-sao-sieu-ngo",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/sieu-sao-sieu-ngo",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Song Lang",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Leon Lê",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0080",
+      "release_year": 2018,
+      "source_url_dtp": "https://doanhthuphim.vn/phim/song-lang",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/song-lang",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Tài",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Mai Tài Phến",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0081",
+      "release_year": 2026,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/tai",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/tai",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Tấm Cám: Chuyện Chưa Kể",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Ngô Thanh Vân",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0082",
+      "release_year": 2016,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/tam-cam-chuyen-chua-ke",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/tam-cam-chuyen-chua-ke",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Thám Tử Kiên: Kỳ Án Không Đầu",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Victor Vũ",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0083",
+      "release_year": 2025,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/tham-tu-kien-ky-an-khong-dau",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/tham-tu-kien-ky-an-khong-dau",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Tháng Năm Rực Rỡ",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Nguyễn Quang Dũng",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0084",
+      "release_year": 2018,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/thang-nam-ruc-ro",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/thang-nam-ruc-ro",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Thiên Đường Máu",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Hoàng Tuấn Cường",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0085",
+      "release_year": 2025,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/thien-duong-mau",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/thien-duong-mau",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Thỏ Ơi!!",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Trấn Thành",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0086",
+      "release_year": 2026,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/tho-oi",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/tho-oi",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Tiệc Trăng Máu",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Nguyễn Quang Dũng",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0087",
+      "release_year": 2020,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/tiec-trang-mau",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/tiec-trang-mau",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Tôi Thấy Hoa Vàng Trên Cỏ Xanh",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Victor Vũ",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0088",
+      "release_year": 2015,
+      "source_url_dtp": "https://doanhthuphim.vn/phim/toi-thay-hoa-vang-tren-co-xanh",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/toi-thay-hoa-vang-tren-co-xanh",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Trại Buôn Người",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Toni Dương Bảo Anh",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0089",
+      "release_year": 2026,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/trai-buon-nguoi",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/trai-buon-nguoi",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Trạng Quỳnh",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Đức Thịnh",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0090",
+      "release_year": 2019,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/trang-quynh",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/trang-quynh",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Truy Tìm Long Diên Hương",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Dương Minh Chiến",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0091",
+      "release_year": 2025,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/truy-tim-long-dien-huong",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/truy-tim-long-dien-huong",
+          "verification": "initial_seed"
+        }
+      ]
+    },
+    {
+      "canonical_title": "Tử Chiến Trên Không",
+      "created_at": "2026-11-18T15:04:31Z",
+      "director_raw": "Hàm Trần",
+      "last_seen_at": "2026-11-18T15:04:31Z",
+      "movie_id": "M0092",
+      "release_year": 2025,
+      "revenue_review": {
+        "decision": "accepted",
+        "reason": "matcher_accepted_bov_revenue",
+        "reviewed_at": null,
+        "reviewer": null
+      },
+      "source_url_dtp": "https://doanhthuphim.vn/phim/tu-chien-tren-khong",
+      "status": "active",
+      "url_history": [
+        {
+          "approved_at": null,
+          "approved_by": null,
+          "first_seen_at": "2026-11-18T15:04:31Z",
+          "last_seen_at": "2026-11-18T15:04:31Z",
+          "source_url_dtp": "https://doanhthuphim.vn/phim/tu-chien-tren-khong",
+          "verification": "initial_seed"
+        }
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "source_anchor": "source_url_doanhthuphim"
+}
