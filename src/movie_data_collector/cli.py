@@ -4,6 +4,7 @@ import argparse
 import asyncio
 import json
 
+from .full_export import build_full_export
 from .pipeline import (
     collect_doanhthuphim,
     match_and_enrich,
@@ -11,6 +12,7 @@ from .pipeline import (
     run_full,
     write_outputs,
 )
+from .search_tickets_web import run_web_ticket_search
 
 
 def main() -> None:
@@ -29,6 +31,21 @@ def main() -> None:
     p_dtp.add_argument("--no-resume", action="store_true")
 
     sub.add_parser("rematch", help="Retry matching for not_found/needs_review records")
+
+    p_web = sub.add_parser(
+        "tickets-web", help="Search public web sources for cumulative ticket counts"
+    )
+    p_web.add_argument("--limit", type=int, default=None, help="Only process the first N movies")
+    p_web.add_argument("--no-resume", action="store_true", help="Ignore saved progress")
+    p_web.add_argument(
+        "--backend",
+        choices=["bing", "google", "both"],
+        default="both",
+        help="RSS search backend (default: both, Bing first)",
+    )
+    p_web.add_argument("--max-queries", type=int, default=3, help="Queries per backend")
+
+    sub.add_parser("export-full", help="Build the consolidated data/full_export.csv")
 
     args = parser.parse_args()
 
@@ -65,6 +82,35 @@ def main() -> None:
         asyncio.run(_run())
     elif args.cmd == "rematch":
         asyncio.run(rematch_unmatched())
+    elif args.cmd == "export-full":
+        frame = build_full_export()
+        print(f"wrote {len(frame)} rows to data/full_export.csv")
+    elif args.cmd == "tickets-web":
+        backends = ("bing", "google") if args.backend == "both" else (args.backend,)
+        results = asyncio.run(
+            run_web_ticket_search(
+                limit=args.limit,
+                resume=not args.no_resume,
+                backends=backends,
+                max_queries=args.max_queries,
+            )
+        )
+        print(
+            json.dumps(
+                [
+                    {
+                        "movie_name": r["movie_name"],
+                        "tickets_sold_web": r["tickets_sold_web"],
+                        "tickets_display": r["tickets_display"],
+                        "ticket_status": r["ticket_status"],
+                        "source_url": r["source_url"],
+                    }
+                    for r in results
+                ],
+                ensure_ascii=False,
+                indent=2,
+            )
+        )
 
 
 if __name__ == "__main__":
