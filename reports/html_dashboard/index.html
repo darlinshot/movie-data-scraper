@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vietnamese Box Office — Interactive Dashboard Prototype</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div id="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">VB</div>
+        <div>
+          <div class="brand-title">Vietnamese Box Office</div>
+          <div class="brand-subtitle">Interactive prototype</div>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Dashboard pages">
+        <button type="button" class="nav-item active" data-page="overview">
+          <span class="nav-index">01</span>
+          <span>Movie Overview</span>
+        </button>
+        <button type="button" class="nav-item" data-page="year">
+          <span class="nav-index">02</span>
+          <span>Release Year Analysis</span>
+        </button>
+        <button type="button" class="nav-item" data-page="genre">
+          <span class="nav-index">03</span>
+          <span>Genre &amp; Director</span>
+        </button>
+        <button type="button" class="nav-item" data-page="quality">
+          <span class="nav-index">04</span>
+          <span>Data Quality &amp; Matching</span>
+        </button>
+        <button type="button" class="nav-item" data-page="revenue">
+          <span class="nav-index">05</span>
+          <span>Exploratory Revenue</span>
+        </button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="footer-label">Source of truth</div>
+        <div class="footer-value">movie_analytics.csv</div>
+        <div id="sidebar-dataset" class="footer-note">Loading dataset…</div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <div class="eyebrow">Power BI design preview · Single approved CSV</div>
+          <h1 id="page-title">Movie Overview</h1>
+          <p id="page-subtitle" class="page-subtitle">High-level view of the 92 approved movie records and diagnostic matcher status.</p>
+        </div>
+        <div class="topbar-actions">
+          <span id="dataset-meta" class="dataset-meta">Loading…</span>
+          <button type="button" id="reset-filters" class="button secondary">Reset filters</button>
+        </div>
+      </header>
+
+      <section class="filter-bar" aria-label="Global dashboard filters">
+        <label class="filter-field search-field">
+          <span>Search</span>
+          <input type="search" id="filter-search" placeholder="Title or movie ID" autocomplete="off">
+        </label>
+        <label class="filter-field">
+          <span>Release year</span>
+          <select id="filter-year"><option value="">All years</option></select>
+        </label>
+        <label class="filter-field">
+          <span>Matching status</span>
+          <select id="filter-match"><option value="">All statuses</option></select>
+        </label>
+        <label class="filter-field">
+          <span>Genre token</span>
+          <select id="filter-genre"><option value="">All genres</option></select>
+        </label>
+        <label class="filter-field">
+          <span>Director</span>
+          <select id="filter-director"><option value="">All directors</option></select>
+        </label>
+      </section>
+
+      <div id="active-filters" class="active-filters" aria-live="polite"></div>
+
+      <section id="loading-state" class="state-panel">
+        <div class="spinner" aria-hidden="true"></div>
+        <h2>Loading approved dataset</h2>
+        <p>Reading <code>data/analytics/movie_analytics.csv</code>…</p>
+      </section>
+
+      <section id="error-state" class="state-panel error" hidden>
+        <div class="state-icon">!</div>
+        <h2>Dataset could not be loaded</h2>
+        <p id="error-message"></p>
+        <pre>Serve the project root, then open:
+.venv/bin/python -m http.server 8000
+http://localhost:8000/reports/html_dashboard/index.html</pre>
+      </section>
+
+      <div id="pages" hidden>
+        <!-- Page 1 -->
+        <section class="page active" data-page="overview">
+          <div class="kpis" id="overview-kpis"></div>
+          <div class="grid-2">
+            <article class="card">
+              <header class="card-header">
+                <div>
+                  <h2>Movie matching status</h2>
+                  <p>Diagnostic matcher result — not human-confirmed identity.</p>
+                </div>
+                <span class="tag">Click a segment to filter</span>
+              </header>
+              <div id="chart-overview-status" class="chart-body"></div>
+            </article>
+            <article class="card">
+              <header class="card-header">
+                <div>
+                  <h2>Movies by release year</h2>
+                  <p>Year-only labels; no verified month or day.</p>
+                </div>
+                <span class="tag">Click a bar to filter</span>
+              </header>
+              <div id="chart-overview-year" class="chart-body"></div>
+            </article>
+          </div>
+          <article class="card table-card">
+            <header class="card-header">
+              <div>
+                <h2>Movie records</h2>
+                <p>Sortable records from the current filter selection.</p>
+              </div>
+              <span id="overview-row-count" class="tag"></span>
+            </header>
+            <div id="table-overview" class="table-wrap"></div>
+          </article>
+        </section>
+
+        <!-- Page 2 -->
+        <section class="page" data-page="year">
+          <div class="kpis" id="year-kpis"></div>
+          <div class="grid-2">
+            <article class="card">
+              <header class="card-header">
+                <div>
+                  <h2>Movie count by release year</h2>
+                  <p>Chronological descriptive counts only.</p>
+                </div>
+              </header>
+              <div id="chart-year-count" class="chart-body"></div>
+            </article>
+            <article class="card">
+              <header class="card-header">
+                <div>
+                  <h2>Release year by matching status</h2>
+                  <p>Stacked diagnostic matcher counts.</p>
+                </div>
+                <span class="tag">No revenue trend</span>
+              </header>
+              <div id="chart-year-stacked" class="chart-body"></div>
+            </article>
+          </div>
+          <article class="card table-card">
+            <header class="card-header">
+              <div>
+                <h2>Year summary</h2>
+                <p>Missing years are shown explicitly and never converted to zero.</p>
+              </div>
+            </header>
+            <div id="table-year" class="table-wrap"></div>
+          </article>
+        </section>
+
+        <!-- Page 3 -->
+        <section class="page" data-page="genre">
+          <div class="kpis" id="genre-kpis"></div>
+          <div class="grid-2">
+            <article class="card">
+              <header class="card-header">
+                <div>
+                  <h2>Genre token frequency</h2>
+                  <p>Pipe-delimited tokens from <code>genre_token_path</code>.</p>
+                </div>
+                <span class="tag warn-tag">Non-additive counts</span>
+              </header>
+              <div id="chart-genre" class="chart-body"></div>
+            </article>
+            <article class="card">
+              <header class="card-header">
+                <div>
+                  <h2>Director profile</h2>
+                  <p>Original director names; missing directors shown explicitly.</p>
+                </div>
+              </header>
+              <div id="chart-director-profile" class="chart-body"></div>
+            </article>
+          </div>
+          <div class="grid-2">
+            <article class="card">
+              <header class="card-header">
+                <div>
+                  <h2>Top directors by movie count</h2>
+                  <p>Presentation subset; full list available through the director filter.</p>
+                </div>
+                <span class="tag">Click a bar to filter</span>
+              </header>
+              <div id="chart-director-top" class="chart-body"></div>
+            </article>
+            <article class="card">
+              <header class="card-header">
+                <div>
+                  <h2>Profile notes</h2>
+                  <p>Guardrails for this page.</p>
+                </div>
+              </header>
+              <div class="notes-list">
+                <p><strong>Genre tokens are not mutually exclusive.</strong> A movie with multiple genres contributes once to each token.</p>
+                <p><strong>Original names are preserved.</strong> <code>director_raw</code> is displayed verbatim; no identity is inferred from <code>director_norm_key</code>.</p>
+                <p><strong>Missing directors are explicit.</strong> They are labelled “Missing director” and are never rendered as zero.</p>
+                <p><strong><code>genre_grouped</code> is not used.</strong> The field is empty in the approved dataset.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- Page 4 -->
+        <section class="page" data-page="quality">
+          <div class="kpis" id="quality-kpis"></div>
+          <div class="grid-2">
+            <article class="card">
+              <header class="card-header">
+                <div>
+                  <h2>Matching status distribution</h2>
+                  <p>Diagnostic matcher status only.</p>
+                </div>
+              </header>
+              <div id="chart-quality-status" class="chart-body"></div>
+            </article>
+            <article class="card">
+              <header class="card-header">
+                <div>
+                  <h2>Independent data-quality flags</h2>
+                  <p>Flags may overlap; no composite score is calculated.</p>
+                </div>
+              </header>
+              <div id="chart-quality-flags" class="chart-body"></div>
+            </article>
+          </div>
+          <div class="grid-2">
+            <article class="card">
+              <header class="card-header">
+                <div>
+                  <h2>Review workflow status</h2>
+                  <p>Workflow state is not a recorded human decision.</p>
+                </div>
+              </header>
+              <div id="chart-quality-review" class="chart-body"></div>
+            </article>
+            <article class="card">
+              <header class="card-header">
+                <div>
+                  <h2>Revenue warning count</h2>
+                  <p>Numerical magnitude warnings, not confirmed conflicts.</p>
+                </div>
+              </header>
+              <div id="chart-quality-warning" class="chart-body"></div>
+            </article>
+          </div>
+
+          <article class="card note-card">
+            <div class="status-distinctions">
+              <div><strong>Matcher status</strong><span><code>bov_match_status</code> — heuristic search outcome; <code>match_score</code> is fuzzy similarity, never identity proof.</span></div>
+              <div><strong>Mapping validation</strong><span><code>mapping_validation_status</code> — rule-based identity eligibility; quarantined and candidate-held rows are excluded from accepted revenue.</span></div>
+              <div><strong>Human review</strong><span><code>mapping_human_reviewed</code> is 0 for all records. No reviewer or review timestamp is invented.</span></div>
+              <div><strong>Ticket evidence</strong><span>Candidates are unverified search evidence. <code>ticket_verified_admissions</code> is empty for all records; no ticket numbers are summed.</span></div>
+            </div>
+          </article>
+
+          <div class="grid-3 audit-tables">
+            <article class="card table-card">
+              <header class="card-header"><div><h2>Pending workflow</h2><p>6 records before filtering.</p></div></header>
+              <div id="table-pending" class="table-wrap"></div>
+            </article>
+            <article class="card table-card">
+              <header class="card-header"><div><h2>High-priority review</h2><p>Audit priority, not a human decision.</p></div></header>
+              <div id="table-priority" class="table-wrap"></div>
+            </article>
+            <article class="card table-card">
+              <header class="card-header"><div><h2>Restricted mapping evidence</h2><p>Audit fields only — excluded from accepted revenue.</p></div></header>
+              <div id="table-restricted" class="table-wrap"></div>
+            </article>
+          </div>
+        </section>
+
+        <!-- Page 5 -->
+        <section class="page" data-page="revenue">
+          <div class="revenue-warning" role="status">
+            <div class="warning-mark">!</div>
+            <div>
+              <strong>Exploratory — revenue scope unverified</strong>
+              <span>DTP and BOV observations remain separate. Verified revenue scopes: 0. No official total, ranking, forecast or source authority is implied.</span>
+            </div>
+          </div>
+          <div class="kpis" id="revenue-kpis"></div>
+          <div class="grid-2">
+            <article class="card">
+              <header class="card-header">
+                <div>
+                  <h2>DTP revenue distribution</h2>
+                  <p>90 rounded observations only; lower bounds excluded.</p>
+                </div>
+                <span class="tag warn-tag">Exploratory</span>
+              </header>
+              <div id="chart-revenue-hist" class="chart-body"></div>
+              <p class="chart-footnote">Precomputed EDA bin labels. Rounded DTP display values; no BOV revenue included.</p>
+            </article>
+            <article class="card table-card">
+              <header class="card-header">
+                <div>
+                  <h2>DTP lower-bound evidence</h2>
+                  <p>Displayed separately with the original ≥ prefix.</p>
+                </div>
+                <span class="tag warn-tag">Not exact</span>
+              </header>
+              <div id="table-lower-bound" class="table-wrap"></div>
+              <p class="chart-footnote">Lower-bound strings are copied verbatim and are never treated as exact values.</p>
+            </article>
+          </div>
+          <article class="card wide-card">
+            <header class="card-header">
+              <div>
+                <h2>DTP vs BOV diagnostic scatter</h2>
+                <p>Log axes, neutral identity line and diagnostic ±10% reference band.</p>
+              </div>
+              <span class="tag warn-tag">Scope unverified</span>
+            </header>
+            <div id="chart-revenue-scatter" class="chart-body scatter-body"></div>
+            <p class="chart-footnote">High-priority points are pending review. The ±10% band is diagnostic only, not proof of conflict. No regression line or correlation coefficient is shown.</p>
+          </article>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <div id="tooltip" class="chart-tooltip" role="tooltip" hidden></div>
+  <div id="toast" class="toast" role="status" hidden></div>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
