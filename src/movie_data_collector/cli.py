@@ -6,6 +6,13 @@ import json
 
 from playwright.async_api import async_playwright
 
+from .config import (
+    CHECKPOINT2_CORE_CSV,
+    CONSOLIDATED_CHECKPOINT2_CSV,
+    DISCOVERED_CSV,
+    PRESS_CSV,
+)
+from .consolidate_checkpoint2 import build_consolidated_csv
 from .discover_bovn import discover_bovn, load_seed_queries, write_discovered_csv
 from .full_export import build_full_export
 from .pipeline import (
@@ -77,6 +84,16 @@ def main() -> None:
     p_press.add_argument("--max-queries", type=int, default=3, help="Queries per backend")
 
     sub.add_parser("export-full", help="Build the consolidated data/full_export.csv")
+
+    p_consolidate = sub.add_parser(
+        "consolidate-checkpoint2",
+        help="Merge checkpoint 2 with BoVN discovery and press fallback, "
+        "backfilling only missing name/director/revenue",
+    )
+    p_consolidate.add_argument("--checkpoint", default=str(CHECKPOINT2_CORE_CSV))
+    p_consolidate.add_argument("--discovered", default=str(DISCOVERED_CSV))
+    p_consolidate.add_argument("--press", default=str(PRESS_CSV))
+    p_consolidate.add_argument("--output", default=str(CONSOLIDATED_CHECKPOINT2_CSV))
 
     args = parser.parse_args()
 
@@ -154,6 +171,14 @@ def main() -> None:
     elif args.cmd == "export-full":
         frame = build_full_export()
         print(f"wrote {len(frame)} rows to data/full_export.csv")
+    elif args.cmd == "consolidate-checkpoint2":
+        frame = build_consolidated_csv(
+            checkpoint_csv=args.checkpoint,
+            discovered_csv=args.discovered,
+            press_csv=args.press,
+            output_csv=args.output,
+        )
+        print(f"wrote {len(frame)} rows to {args.output}")
     elif args.cmd == "press-revenue":
         backends = ("bing", "google") if args.backend == "both" else (args.backend,)
         results = asyncio.run(

@@ -4,6 +4,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 DATA_DIR = ROOT / "data"
+FILTERED_DIR = DATA_DIR / "filtered"
 STATE_DIR = ROOT / "state"
 
 DOANHTHUPHIM_URL = "https://doanhthuphim.vn/tong-hop"
@@ -14,6 +15,10 @@ UNMATCHED_CSV = DATA_DIR / "unmatched_movies.csv"
 LOG_CSV = DATA_DIR / "collection_log.csv"
 TICKETS_WEB_CSV = DATA_DIR / "tickets_sold_web.csv"
 FULL_EXPORT_CSV = DATA_DIR / "full_export.csv"
+CHECKPOINT2_CORE_CSV = FILTERED_DIR / "2020_2026_checkpoint2_core_no_original_title.csv"
+CONSOLIDATED_CHECKPOINT2_CSV = FILTERED_DIR / (
+    "2020_2026_checkpoint2_core_plus_bovn_discovery.csv"
+)
 DISCOVERED_CSV = DATA_DIR / "bovn_discovered.csv"
 PRESS_CSV = DATA_DIR / "bovn_discovered_press.csv"
 PRESS_SEED = ROOT / "seeds" / "bovn_press_seed.json"

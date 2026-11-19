@@ -14,6 +14,9 @@ Outputs:
   with source URL, headline, snippet, and status.
 - `data/full_export.csv` — final review-friendly CSV with `to_review_<field>` columns
   pointing to sources for fields that need manual checking.
+- `data/filtered/2020_2026_checkpoint2_core_plus_bovn_discovery.csv` — checkpoint 2
+  plus discovered BoVN movies; keeps the six checkpoint columns and appends only
+  `to_review_director` / `to_review_revenue` for required-field backfills.
 
 ## Setup
 
@@ -51,6 +54,9 @@ uv sync
 
 # Build the final combined export
 .venv/bin/python -m movie_data_collector.cli export-full
+
+# Merge checkpoint 2 with discovered BoVN movies (required-field backfill only)
+.venv/bin/python -m movie_data_collector.cli consolidate-checkpoint2
 ```
 
 Progress is saved incrementally to `state/doanhthuphim_movies.jsonl`,
@@ -121,3 +127,18 @@ in a separate file, never overwriting `revenue_bovn`:
   (`revenue_press_is_lower_bound=true`): Doraemon Movie 45
   (over 203.5 ty as of 2026-06-26) and Doraemon 2021
   (over 48 ty).
+
+## Checkpoint 2 consolidation
+
+`consolidate-checkpoint2` keeps checkpoint 2 untouched and writes a second file
+in `data/filtered/`. It appends BoVN-discovered rows that are not already in
+checkpoint 2, and fills only missing `director` and `revenue`:
+
+- Exact `revenue_bovn` always wins. The press display text is used only when
+  BoVN revenue is empty, and is marked `needs_review` with its article URL.
+  Press values are never converted into precise-looking VND totals.
+- Missing directors are taken from the public Wikipedia infobox, with the page
+  URL stored in `to_review_director`. No other column is crawled or reviewed.
+- One discovered title (`Doraemon: Nobita và Mặt Trăng Phiêu Lưu Ký`) is from
+  2019. It is retained as-is because no year filter was requested; filter it out
+  if a strict 2020–2026 range is required.
