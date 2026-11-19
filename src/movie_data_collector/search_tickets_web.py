@@ -263,6 +263,9 @@ def _title_aliases(record: dict[str, Any]) -> list[str]:
         variants.append(re.sub(r"\([^)]*\)", "", raw))
         if ":" in raw:
             variants.append(raw.split(":", 1)[0])
+            # Short title without year, e.g. 'Doraemon Movie 45 (2026): ...'
+            # -> 'Doraemon Movie 45', so short headlines still match.
+            variants.append(re.sub(r"\([^)]*\)", "", raw.split(":", 1)[0]).strip())
 
     aliases: set[str] = set()
     for variant in variants:

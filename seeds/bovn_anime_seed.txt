@@ -1,0 +1,11 @@
+# Seed queries for Box Office Vietnam discovery.
+# Each line is one search query, tried in order. These 5 queries were
+# verified 2026-11-19: each returns at least one anime movie that is
+# NOT in data/movies.csv (DoanhThuPhim only lists 92 films in total).
+# Full titles often return "No Movie Found" on BoVN, so use short
+# keywords, not the full Vietnamese title.
+Doraemon
+Conan Movie 28
+Vô Hạn Thành
+Doraemon 2025
+Conan 27
