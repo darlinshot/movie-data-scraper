@@ -1,0 +1,231 @@
+table Movies
+	lineageTag: df73221a-dc15-5f78-aaf3-ebaac5b63b1e
+
+	/// Returns 1 when the current movie matches the active Genre Tokens slicer selection, otherwise 0.
+	measure '__Movie In Genre Selection' =
+		VAR SelectedGenres = VALUES('Genre Tokens'[Genre])
+		VAR MovieGenreText = SELECTEDVALUE('Movies'[Genre], "")
+		VAR PipeGenres = SUBSTITUTE(SUBSTITUTE(MovieGenreText, ", ", "|"), ",", "|")
+		VAR MatchCount =
+			COUNTROWS(
+				FILTER(
+					SelectedGenres,
+					PATHCONTAINS(PipeGenres, 'Genre Tokens'[Genre])
+				)
+			)
+		RETURN
+			IF(NOT ISFILTERED('Genre Tokens'[Genre]) || MatchCount > 0, 1, 0)
+		formatString: #,0
+		lineageTag: 5da14133-77c4-5c50-a234-58dc5532e053
+
+	/// Count of movies in the current filter context. Genre Tokens slicer values are applied per movie.
+	measure 'Total Movies' = SUMX('Movies', [__Movie In Genre Selection])
+		formatString: #,0
+		lineageTag: 53e4d57a-5423-58fc-946d-ee0382115f1f
+
+	/// Sum of parsed revenue in VND. Exact VND strings and tỷ đồng strings are parsed locale-independently in Power Query.
+	measure 'Total Revenue VND' = SUMX('Movies', IF([__Movie In Genre Selection] = 1, 'Movies'[Revenue VND], 0))
+		formatString: #,0
+		lineageTag: f82b45a6-a331-5391-8484-0a14d6336041
+
+	/// Sum of the ticket field. Values are labelled estimated because source values are mixed and unverified.
+	measure 'Total Estimated Tickets' = SUMX('Movies', IF([__Movie In Genre Selection] = 1, 'Movies'[Tickets Sold], 0))
+		formatString: #,0
+		lineageTag: 92b242fb-591a-590d-af62-e90c3f84e6c7
+
+	/// Average parsed revenue per movie in the current filter context.
+	measure 'Average Revenue per Movie' = DIVIDE([Total Revenue VND], [Total Movies])
+		formatString: #,0
+		lineageTag: 3e5af0aa-9633-5ef9-93d9-603607ceb42c
+
+	/// Average estimated tickets per movie in the current filter context.
+	measure 'Average Estimated Tickets per Movie' = DIVIDE([Total Estimated Tickets], [Total Movies])
+		formatString: #,0
+		lineageTag: dc16f424-f018-52c9-82a1-e0e4173f37b4
+
+	/// Average revenue in VND per estimated ticket in the current filter context.
+	measure 'Average Revenue per Estimated Ticket' = DIVIDE([Total Revenue VND], [Total Estimated Tickets])
+		formatString: #,0.00
+		lineageTag: b3f58abe-62bb-56b9-a80e-83ce36bf02bd
+
+	/// Revenue by release year. Equivalent to Total Revenue VND when placed on a year axis.
+	measure 'Revenue by Year' = [Total Revenue VND]
+		formatString: #,0
+		lineageTag: 5459d6a9-0a26-594d-b10c-c8c9557190a4
+
+	/// Movie count by release year. Equivalent to Total Movies when placed on a year axis.
+	measure 'Movies by Year' = [Total Movies]
+		formatString: #,0
+		lineageTag: a7859988-8482-5eff-8bfb-5a7c9231f59e
+
+	/// Estimated tickets by release year. Equivalent to Total Estimated Tickets when placed on a year axis.
+	measure 'Estimated Tickets by Year' = [Total Estimated Tickets]
+		formatString: #,0
+		lineageTag: e8f053ee-4baa-5e0d-893b-b3b1f31152d2
+
+	/// Share of revenue for the current visual point within all movies selected by slicers.
+	measure 'Revenue Share %' =
+		DIVIDE([Total Revenue VND], CALCULATE([Total Revenue VND], ALLSELECTED('Movies')))
+		formatString: 0.0%
+		lineageTag: da75a690-6531-548f-86e4-837844e828d8
+
+	/// Revenue share of the current movie within the current slicer selection.
+	measure 'Movie Share %' =
+		DIVIDE([Total Revenue VND], CALCULATE([Total Revenue VND], ALLSELECTED('Movies'[Movie Name])))
+		formatString: 0.0%
+		lineageTag: 7ee0b16f-9ecb-5c29-b43b-a2c7f417c4d9
+
+	/// Dense descending revenue rank of the current movie within the current slicer selection.
+	measure 'Rank by Revenue' =
+		VAR IsMovieScope = ISINSCOPE('Movies'[Movie Name])
+		VAR CurrentMovieMatches = [__Movie In Genre Selection] = 1
+		VAR EligibleMovies =
+			FILTER(
+				ALLSELECTED('Movies'[Movie Name]),
+				CALCULATE([__Movie In Genre Selection]) = 1
+			)
+		RETURN
+			IF(
+				IsMovieScope && CurrentMovieMatches,
+				RANKX(EligibleMovies, [Total Revenue VND], , DESC, DENSE),
+				BLANK()
+			)
+		formatString: #,0
+		lineageTag: 9c34abff-76b6-5015-9c45-f53d6142f3ff
+
+	/// Dense descending estimated-ticket rank of the current movie within the current slicer selection.
+	measure 'Rank by Estimated Tickets' =
+		VAR IsMovieScope = ISINSCOPE('Movies'[Movie Name])
+		VAR CurrentMovieMatches = [__Movie In Genre Selection] = 1
+		VAR EligibleMovies =
+			FILTER(
+				ALLSELECTED('Movies'[Movie Name]),
+				CALCULATE([__Movie In Genre Selection]) = 1
+			)
+		RETURN
+			IF(
+				IsMovieScope && CurrentMovieMatches,
+				RANKX(EligibleMovies, [Total Estimated Tickets], , DESC, DENSE),
+				BLANK()
+			)
+		formatString: #,0
+		lineageTag: 261a0709-ac62-5a64-af4c-3d4d6f282734
+
+	/// Revenue value for movies ranked in the top 10 by revenue; blank for all other movies.
+	measure 'Top 10 Revenue Value' = IF(NOT ISBLANK([Rank by Revenue]) && [Rank by Revenue] <= 10, [Total Revenue VND])
+		formatString: #,0
+		lineageTag: 4c21cd73-a0c9-5192-bd66-5e396aa34a92
+
+	/// Estimated-ticket value for movies ranked in the top 10 by tickets; blank for all other movies.
+	measure 'Top 10 Ticket Value' = IF(NOT ISBLANK([Rank by Estimated Tickets]) && [Rank by Estimated Tickets] <= 10, [Total Estimated Tickets])
+		formatString: #,0
+		lineageTag: c0936c16-2400-5ce4-a93d-f6da1e9661e5
+
+	column 'Movie Name'
+		dataType: string
+		lineageTag: 40611e4d-603a-5595-832a-cb7f1d1e29ad
+		summarizeBy: none
+		sourceColumn: movie_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Release Year'
+		dataType: int64
+		formatString: 0
+		lineageTag: 7473cc31-fec1-586e-b01a-1e21415815d2
+		summarizeBy: none
+		sourceColumn: release_year
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Genre'
+		dataType: string
+		lineageTag: 5e4121a8-f99a-5d23-9a5a-9244e1ccafbb
+		summarizeBy: none
+		sourceColumn: genre
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Director'
+		dataType: string
+		lineageTag: b6bbd46f-9fd8-5fe9-b640-487cca3d00a2
+		summarizeBy: none
+		sourceColumn: director
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Revenue VND'
+		dataType: double
+		formatString: #,0
+		lineageTag: 34f92fae-351d-57c1-9e26-742cb6182c95
+		summarizeBy: sum
+		sourceColumn: revenue
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tickets Sold'
+		dataType: int64
+		formatString: #,0
+		lineageTag: 34ab8249-caba-5509-af0b-8430d1a6cfa7
+		summarizeBy: sum
+		sourceColumn: tickets_sold
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Movies = m
+		mode: import
+		source = ```
+				let
+				    SourcePath = "E:\\Projects\\uni\\movie-data-scraper\\data\\processed\\checkpoint3.csv",
+				    Source = Csv.Document(File.Contents(SourcePath), [Delimiter=",", Columns=6, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    CleanNames = Table.TransformColumnNames(Promoted, each Text.Replace(Text.Trim(_), "#(FEFF)", "")),
+				    ExpectedColumns = {"movie_name", "release_year", "genre", "director", "revenue", "tickets_sold"},
+				    ActualColumns = Table.ColumnNames(CleanNames),
+				    SchemaCheck = if List.Count(List.Difference(ExpectedColumns, ActualColumns)) > 0 or List.Count(List.Difference(ActualColumns, ExpectedColumns)) > 0 then error "CSV schema mismatch. Expected: " & Text.Combine(ExpectedColumns, ", ") & ". Found: " & Text.Combine(ActualColumns, ", ") else CleanNames,
+				    RowCountCheck = if Table.RowCount(SchemaCheck) <> 78 then error "Expected 78 movie rows, found " & Text.From(Table.RowCount(SchemaCheck)) & "." else SchemaCheck,
+				    BlankRows = Table.SelectRows(RowCountCheck, each List.AnyTrue(List.Transform(Record.FieldValues(_), each _ = null or Text.Trim(Text.From(_)) = ""))),
+				    BlankCheck = if Table.RowCount(BlankRows) > 0 then error "Blank values found in the source CSV." else RowCountCheck,
+				    fnParseRevenue = (value as any) as number =>
+				        let
+				            rawText = if value = null then "" else Text.Trim(Text.From(value)),
+				            noSymbol = Text.Replace(rawText, "₫", ""),
+				            noDong = Text.Replace(noSymbol, " đồng", ""),
+				            hasTy = Text.Contains(noDong, "tỷ", Comparer.OrdinalIgnoreCase),
+				            numberText = if hasTy then Text.Trim(Text.Replace(Text.BeforeDelimiter(noDong, "tỷ"), " ", "")) else Text.Trim(noDong),
+				            parsed = if hasTy then
+				                        let
+				                            normalized = Text.Replace(numberText, ",", "."),
+				                            baseValue = Number.FromText(normalized, "en-US")
+				                        in
+				                            baseValue * 1000000000
+				                     else
+				                        let
+				                            digits = Text.Select(numberText, {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"}),
+				                            baseValue = if digits = "" then null else Number.FromText(digits, "en-US")
+				                        in
+				                            baseValue,
+				            result = if parsed = null then error "Unable to parse revenue value: " & rawText else parsed
+				        in
+				            result,
+				    fnParseWhole = (value as any, columnName as text) as number =>
+				        let
+				            rawText = if value = null then "" else Text.Trim(Text.From(value)),
+				            digits = Text.Select(rawText, {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"}),
+				            parsed = if digits = "" then null else Number.FromText(digits, "en-US")
+				        in
+				            if parsed = null or parsed <> Number.Round(parsed) then error "Invalid whole number in " & columnName & ": " & rawText else parsed,
+				    Parsed = Table.TransformColumns(BlankCheck, {
+				        {"revenue", each fnParseRevenue(_), type number},
+				        {"release_year", each fnParseWhole(_, "release_year"), Int64.Type},
+				        {"tickets_sold", each fnParseWhole(_, "tickets_sold"), Int64.Type}
+				    }),
+				    TypedText = Table.TransformColumnTypes(Parsed, {{"movie_name", type text}, {"genre", type text}, {"director", type text}}),
+				    BadTickets = Table.SelectRows(TypedText, each [tickets_sold] <= 0),
+				    TicketCheck = if Table.RowCount(BadTickets) > 0 then error "Non-positive tickets_sold found in the source CSV." else TypedText,
+				    Final = Table.SelectColumns(TicketCheck, ExpectedColumns)
+				in
+				    Final
+				```
+
+	annotation PBI_ResultType = Table

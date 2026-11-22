@@ -1,0 +1,14 @@
+# Power BI / Fabric local cache
+**/.pbi/cache/
+**/*.cache
+*.tmp
+*.log
+
+# Binary report output; create this only from Power BI Desktop after validation
+*.pbix
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

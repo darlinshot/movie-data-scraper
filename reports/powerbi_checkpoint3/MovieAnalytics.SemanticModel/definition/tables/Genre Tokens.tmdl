@@ -1,0 +1,37 @@
+table 'Genre Tokens'
+	lineageTag: 9e8b057e-c35e-5fc0-ba1c-59f6cbdf5219
+
+	column 'Genre'
+		dataType: string
+		lineageTag: 64ebc501-6540-5e6d-95b3-728f8a8ac5ee
+		summarizeBy: none
+		sourceColumn: Genre
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Genre Tokens' = m
+		mode: import
+		source = ```
+				let
+				    SourcePath = "E:\\Projects\\uni\\movie-data-scraper\\data\\processed\\checkpoint3.csv",
+				    Source = Csv.Document(File.Contents(SourcePath), [Delimiter=",", Columns=6, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    CleanNames = Table.TransformColumnNames(Promoted, each Text.Replace(Text.Trim(_), "#(FEFF)", "")),
+				    ExpectedColumns = {"movie_name", "release_year", "genre", "director", "revenue", "tickets_sold"},
+				    ActualColumns = Table.ColumnNames(CleanNames),
+				    SchemaCheck = if List.Count(List.Difference(ExpectedColumns, ActualColumns)) > 0 or List.Count(List.Difference(ActualColumns, ExpectedColumns)) > 0 then error "CSV schema mismatch for Genre Tokens. Expected: " & Text.Combine(ExpectedColumns, ", ") & ". Found: " & Text.Combine(ActualColumns, ", ") else CleanNames,
+				    RowCountCheck = if Table.RowCount(SchemaCheck) <> 78 then error "Expected 78 movie rows for Genre Tokens, found " & Text.From(Table.RowCount(SchemaCheck)) & "." else SchemaCheck,
+				    BlankRows = Table.SelectRows(RowCountCheck, each List.AnyTrue(List.Transform(Record.FieldValues(_), each _ = null or Text.Trim(Text.From(_)) = ""))),
+				    BlankCheck = if Table.RowCount(BlankRows) > 0 then error "Blank values found in the source CSV while building Genre Tokens." else RowCountCheck,
+				    SplitGenres = Table.TransformColumns(BlankCheck, {{"genre", each Text.Split(_, ","), type list}}),
+				    Expanded = Table.ExpandListColumn(SplitGenres, "genre"),
+				    Trimmed = Table.TransformColumns(Expanded, {{"genre", each Text.Trim(_), type text}}),
+				    NonEmpty = Table.SelectRows(Trimmed, each [genre] <> ""),
+				    DistinctGenres = Table.Distinct(Table.SelectColumns(NonEmpty, {"genre"})),
+				    Renamed = Table.RenameColumns(DistinctGenres, {{"genre", "Genre"}}),
+				    Sorted = Table.Sort(Renamed, {{"Genre", Order.Ascending}})
+				in
+				    Sorted
+				```
+
+	annotation PBI_ResultType = Table
